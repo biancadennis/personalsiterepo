@@ -4,6 +4,7 @@ h1 {
 .separate {
 	margin-left: 100px;
 	margin-right: 100px;
+	clear: both;
 }
 img.selfie {
 	float: left;
