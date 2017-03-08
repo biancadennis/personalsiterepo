@@ -2,4 +2,27 @@ div.col-md-6 {
 	margin-top: 10px;
 	text-align: center;
 }
+.gallery {
+	box-sizing: border-box;
+	height: 300px;
+	width: 300px;
+	margin: 10px;
+	justify-content: space-between;
+}
+.gallerycontainer {
+	display: flex;
+}
 
+@media (max-width: 900px) {
+	.gallery {
+	height: 200px;
+	width: 200px;
+	margin: 10px;
+	}
+	.hometown div{
+		display: none;
+	}	
+	.h4 {
+		display: none;
+	}
+}
